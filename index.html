@@ -6,25 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição do site">
     <meta name="keywords" content="TAG1, TAG2">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="styleheet" href="style.css">
   </head>
   <body>
     <h1>To do list</h1>
     <div>
       <h2>Create new task</h2>
-      <form>
-        <input name="title" type="text">
+      <form id="new-task-form">
+        <input name="title"/>
         <textarea name="description"></textarea>
         <button type="submit">Create</button>
+        <button type="reset">Reset</button>
       </form>
     </div>
     <div>
       <h2>Tasks</h2>
-      <ul>
-
-      </ul>
+      <ul id="tasks-list"></ul>
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
